@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="theme.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+</head>
+<body class="vz-standard-font">
+  
+<div class="container">
+<p class="vzh1">Headers</p>
+  <h1 class="vzh1">My First Bootstrap Page-vzh1</h1>
+  <h2 class="vzh2">My First Bootstrap Page-vzh2</h2>
+  <h3 class="vzh3">My First Bootstrap Page-vzh3</h3>
+  <h4 class="vzh4">My First Bootstrap Page-vzh4</h4>
+  <h5 class="vzh5">My First Bootstrap Page-vzh5</h5>
+  <h6 class="vzh6">My First Bootstrap Page-vzh6</h6>
+  <h1 class="vzh1">Primary Pallete</h1>
+  <p> The Verizon primary color palette consists of red,white and black.Verizon Red should always have a presence in every piece of communication.</p>
+  <p class="vzred">My First Bootstrap Page-vzred</p>
+  <p class="vzdarkgrey">My First Bootstrap Page-vzdarkgrey</p>
+  <p class="vzgrey">My First Bootstrap Page-vzgrey</p>
+  <p class="vzlightgrey">May First Bootstrap Page-vzlightgrey</p>
+  <h1 class="vzh1">Secondary Pallete</h1>
+  <p>This colors should not be use more than 20% in the layout and they should never be used in headlines or logos.</p> 
+  <p class="vzsecondary1">My First Bootstrap Page-vzsecondary1</p>
+  <p class="vzsecondary2">My First Bootstrap Page-vzsecondary2</p>
+  <p class="vzsecondary3">My First Bootstrap Page-vzsecondary3</p>
+  <p class="vzsecondary4">My First Bootstrap Page-vzsecondary4</p>
+  <p class="vzsecondary5">My First Bootstrap Page-vzsecondary5</p>
+  <p class="vzsecondary6">My First Bootstrap Page-vzsecondary6</p>
+  <p class="vzsecondary7">My First Bootstrap Page-vzsecondary7</p>
+  <p class="vzsecondary8">My First Bootstrap Page-vzsecondary8</p>
+  <a class="vzlink" href="http://www.w3schools.com" >w3schools.com</a>
+  <h2 class="vzh2">Button names are classes.USE these class names to create buttons</h2>
+  <div>
+  <button type="button" class="vzbtn"> vzbtn</button>
+  <button type="button" class="vzbtnmedium"> vzbtnmedium</button>
+  <button type="button" class="vzbtnsmall"> vzbtnsmall</button>
+   <button type="button" class="vzbtnxsmall"> vzbtnxsmall</button></br>
+   <button type="button" class="vzbtn1"> vzbtn1</button>
+    <button type="button" class="vzbtn1medium"> vzbt1nmedium</button>
+  <button type="button" class="vzbtn1small"> vzbtn1small</button>
+   <button type="button" class="vzbtn1xsmall"> vzbtn1xsmall</button></br>  
+  <button type="button" class="vzbtn2">vzbtn2 </button>
+  <button type="button" class="vzbtn2medium"> vzbtn2medium</button>
+  <button type="button" class="vzbtn2small"> vzbtn2small</button>
+   <button type="button" class="vzbtn2xsmall"> vzbtn2xsmall</button></br>  
+  <h2 class="vzh2" >TextBox and TextArea classes are in text area</h2>
+  <label class="vzh3">Name:</label>
+  <input type="text" placeholder="vztext" class="vztext"/></br></br></br>
+  <label class="vzh3">Name:</label>
+  <textarea name="text" rows="2" cols="1" class="vztextarea" placeholder="vztextarea" ></textarea>
+  <h3 class="vzh3">NOTE:To align the textboxes ,create each text box in individual &ltdiv&gt tag and give class="inputwrap".Sample Code is below</h3>
+  &ltdiv class="inputwrap"&gt </br>
+  &ltlabel class="vz-standard-font"&gtAnswer&lt/label&gt </br>
+  &ltinput  type="text" class="vztext" name="answer"&gt </br>
+  &lt/div&gt </br>
+  &ltdiv class="inputwrap"&gt </br>
+  &ltlabel class="vz-standard-font"&gtPassword&lt/label&gt </br>
+  &ltinput  type="password" class="vztext" name="password" required &gt </br>
+  &lt/div&gt </br>
+<p>Result</p>			
+  <div class="inputwrap"> <label class="vz-standard-font">Answer</label>
+			<input  type="text" class="vztext" name="answer"><br><br><br>
+			</div>
+			
+			
+			<div class="inputwrap"> <label class="vz-standard-font">Password</label>
+			<input  type="password" class="vztext" name="password" required ><br><br><br>
+			</div>
+			
+  
+   <h2 class="vzh2"> Checkbox and Radio Buttons(Default no need any classes) and use it with &lt label &gt</h2>
+   &ltinput type="radio"  id="rb1" name="rb" value="" checked&gt
+	&ltlabel for="rb1"&gtTest1&lt/label&gt </br>
+  
+	<input type="radio"  id="rb1" name="rb" value="" checked>
+	<label for="rb1">Test1</label><br>
+	<input type="radio" id="rb2" name="rb"value="">
+	<label for="rb2">Test2</label><br>
+	<input type="radio"  id="rb3" name="rb" value="">
+	<label for="rb3">Test3</label> <br><br>
+	&ltinput type="checkbox" id="cb3" name="cb" value=""&gt
+	&ltlabel for="cb3"&gtTest6&lt/label&gt  </br>  
+	<input type="checkbox" id="cb1" name="cb" value="">
+	<label for="cb1">Test4</label><br>
+	<input type="checkbox" id="cb2" name="cb"value="" checked>
+	<label for="cb2">Test5</label><br>
+	<input type="checkbox" id="cb3" name="cb" value="">
+	<label for="cb3">Test6</label>   
+    <h2 class="vzh2"> Table class is "vztable" </h2>	
+	<div  >
+                <table class="vztable">
+                    <tr>
+                        <td>
+                            Title 1
+                        </td>
+                        <td >
+                            Title 2
+                        </td>
+                        <td>
+                            Title 3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 1
+                        </td>
+                        <td>
+                            Row 1
+                        </td>
+                        <td>
+                            Row 1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 3
+                        </td>
+                        <td>
+                            Row 3
+                        </td>
+                        <td>
+                            Row 3
+                        </td>
+                    </tr>
+                </table>
+            </div>
+			 <h2 class="vzh2"> Table class is "vztable1" </h2>	
+			<div class="vztable1" >
+                <table >
+                    <tr>
+                        <td>
+                            Title 1
+                        </td>
+                        <td >
+                            Title 2
+                        </td>
+                        <td>
+                            Title 3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 1
+                        </td>
+                        <td>
+                            Row 1
+                        </td>
+                        <td>
+                            Row 1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 3
+                        </td>
+                        <td>
+                            Row 3
+                        </td>
+                        <td>
+                            Row 3
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+   
+   <h2 class="vzh2"> Responsive Embeds class is "vzresponsive-container" </h2>
+    
+  
+  <div class="vzresponsive-container">
+
+<iframe src="http://youtube.com/embed/m4cgLL8JaVI?rel=0" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</div>
+  <h2 class="vzh2">Image class is "vzlogoContainer" </h2>
+<div class='vzlogoContainer'>
+  <img src='Logo.jpg' alt=''/>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+ <p>For Demo <a href="http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar&stacked=h">Click here</a></p>
+<h2 class="vzh2">Pagination - Sizing</h2>
+  <p>Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks:</p>
+  <ul class="pagination pagination-lg">
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+  </ul>
+
+  <ul class="pagination pagination-sm">
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+  </ul>
+</div>
+ <p>For Demo <a href="http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_pagination_sizing&stacked=h">Click here</a></p>
+<h2 class="vzh2" >Animated Progress Bar</h2><div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+      40%
+    </div>
+  </div>
+  <p>For Demo <a href="http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_progressbar5&stacked=h">Click here</a></p>
+
+	<h2 class="vzh2" >DropDown List class="select-style"</h2>
+		<div class="select-style">
+  <select>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+</div>
+<div class="wrapper">
+    <div class="h_iframe">
+        <!-- a transparent image is preferable -->
+        <img class="ratio" src="http://www.brightontheday.com/wp-content/uploads/2013/07/placeholder300.png"/>
+       <iframe frameborder='0' height='465px' width='470px' scrolling='no' src='http://currentlyobsessed.me/api/v1/get_widget?wid=30&blog=Brighton+The+Day&widgetid=38585' frameborder="0" allowfullscreen></iframe>
+    </div>
+</div> 
+
+
+</div>
+</body>
+</html>

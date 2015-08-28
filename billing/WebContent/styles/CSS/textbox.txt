@@ -1,0 +1,56 @@
+
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+<div align="center">
+		<form name="signup"  action="Validation" method="post">
+			<h1 class="vzh1" align="center"> Enter the Credentials</h1><br><br><br>
+			
+		  <div><label class="vz-standard-font" >Name</label>
+		  <input  type="text"  name="uname" class="vztext"><br><br><br>
+		  </div>
+			<div><label class="vz-standard-font">Userid</label>
+			<input type="text"  class="vztext"  name="empid" required ><br><br><br>
+			</div>
+			<div><label class="vz-standard-font">Manname</label>
+			<input  type="text" class="vztext" name="manname" required ><br><br><br>
+			</div>
+			<div><label class="vz-standard-font">email</label>
+			<input  type="text" class="vztext" name="email" required ><br><br><br>
+			</div>
+			
+			 SecurityQuestion
+			<select name="securityques">
+				<option >What is your nick name  </option>
+				<option > What is your first school</option>
+				<option > What is your favourite sport</option>
+			</select>
+			
+			
+			<div> <label class="vz-standard-font">Answer</label>
+			<input  type="text" class="vztext" name="answer"><br><br><br>
+			</div>
+			
+			
+			<div> <label class="vz-standard-font">Password</label>
+			<input  type="password" class="vztext" name="password" required ><br><br><br>
+			</div>
+			
+			<div><label class="vz-standard-font">Role</label>
+			<input  type="text" class="vztext" name="role" required><br><br><br>
+			</div>
+			
+			<div><label class="vz-standard-font"><input type="submit" class="vzbtn"  value="submit" ><br><br><br></label></div>
+			
+			
+		</form>
+		</div>
+	
+</body>
+</html>

@@ -1,0 +1,10 @@
+.boxalign2 {
+  width:400px;
+}
+
+label {
+  text-align:right;
+  padding-right:20px;
+  display:inline-block;
+  min-width:150px;
+}

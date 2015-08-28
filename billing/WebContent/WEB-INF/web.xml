@@ -3,7 +3,7 @@
   <display-name>billing</display-name>
   <welcome-file-list>
   <welcome-file>
-  Connection1
+  Custid.jsp
   </welcome-file>
   
   </welcome-file-list>
